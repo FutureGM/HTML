@@ -1,0 +1,20 @@
+How to Use Bootstrap:
+
+1. Import jquery cdn (use a google search)
+
+2. Use JQuery Core, MOST RECENT VERSION (minified)
+
+3. Copy and Paste minified verion, ALL LINKS GO INSIDE <head> TAG
+
+4. Google getbootstrap.com; version 3(Bootstrap3) (NOT W3 SCHOOLS)
+
+5. Click Getting Started tab, up top
+
+6. Scroll Down to Bootstrap CDN
+
+7. Copy and paste everything, BELOW THE JQUERY LINK
+8. Use tab Components; select Navbar (or any other feature you want)
+
+9. Copy and Paste section you like
+ into <body> tag
+10. Save, run/refresh HTML
