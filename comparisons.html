@@ -46,7 +46,7 @@ Have visualization navigation on every visualizations page with an active state.
 
 <head>
   <meta charset="UTF-8">
-  <title>Wind Speed</title>
+  <title>Weather Py Comparisons</title>
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <!-- Latest compiled and minified CSS -->
@@ -149,7 +149,8 @@ Links to each visualizations page.
       </ul>
     </nav>
     <header class="header">
-      <h1>Welcome</h1>
+      <h1>Comparisons: Latitude vs X</h1>
+      <p>Click any plot for an in-depth analysis.</p>
     </header>
     <div class="container-fluid" align="right">
       <div class="row">
@@ -157,7 +158,18 @@ Links to each visualizations page.
           <main>
             <section class="posts">
               <article class="post">
-                <h3>Wind Speed</h3>
+                <h3>Humidity</h3>
+                <p>
+                  <img src="./HumidityvLatitude.png">In this project, we used Python script to visualize weather in over 500 cities across the world. The locations
+                  were all varying and random distances from the equator. In order to complete this analysis, we used data
+                  published from a free API called "OpenWeatherMap".</p>
+                <p>Once the data was retrieved, we used the libraries Pandas and Matplotlib. With Pandas, we were able to generate
+                  dataframes to organize the data. After these were completed, we used Matplotlib in order to create two-dimensional
+                  scatter plots to measure Latitude city locations with Temperature, Wind Speed, Humidity, and Cloudiness.
+                  This website will show the data from OpenWeatherMap, visualizations created for this analysis, also trends
+                  and correlations observed.
+                </p>
+                <h3>vs. Wind Speed</h3>
                 <p>
                   <img src="./Wind SpeedvLatitude.png">In this project, we used Python script to visualize weather in over 500 cities across the world. The locations
                   were all varying and random distances from the equator. In order to complete this analysis, we used data
@@ -168,54 +180,32 @@ Links to each visualizations page.
                   This website will show the data from OpenWeatherMap, visualizations created for this analysis, also trends
                   and correlations observed.
                 </p>
+                <h3>vs. Max Temperature</h3>
+                <p>
+                  <img src="./TemperaturevLatitude.png">In this project, we used Python script to visualize weather in over 500 cities across the world. The locations
+                  were all varying and random distances from the equator. In order to complete this analysis, we used data
+                  published from a free API called "OpenWeatherMap".</p>
+                <p>Once the data was retrieved, we used the libraries Pandas and Matplotlib. With Pandas, we were able to generate
+                  dataframes to organize the data. After these were completed, we used Matplotlib in order to create two-dimensional
+                  scatter plots to measure Latitude city locations with Temperature, Wind Speed, Humidity, and Cloudiness.
+                  This website will show the data from OpenWeatherMap, visualizations created for this analysis, also trends
+                  and correlations observed.
+                </p>
+                <h3>vs. Cloudiness</h3>
+                <p>
+                  <img src="./CloudinessvLatitude.png">In this project, we used Python script to visualize weather in over 500 cities across the world. The locations
+                  were all varying and random distances from the equator. In order to complete this analysis, we used data
+                  published from a free API called "OpenWeatherMap".</p>
+                <p>Once the data was retrieved, we used the librariepps Pandas and Matplotlib. With Pandas, we were able to
+                  generate dataframes to organize the data. After these were completed, we used Matplotlib in order to create
+                  two-dimensional scatter plots to measure Latitude city locations with Temperature, Wind Speed, Humidity,
+                  and Cloudiness. This website will show the data from OpenWeatherMap, visualizations created for this analysis,
+                  also trends and correlations observed.
+                </p>
               </article>
             </section>
           </main>
         </div>
-        <div class="col-xs-3 .col-md-3">
-          <!--Level 2: .col-md-3-->
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <h2>Visualizations</h2>
-              <div class="row" style="width:60%; padding-bottom: 10px">
-                <div class="col">
-                  <a href "Cloudiness.html">
-                    <img class="img-responsive" src="CloudinessvLatitude.png" style="width: 100%" ; alt="Cloudiness vs Latitude">
-                  </a>
-                </div>
-              </div>
-              <div class="row" style="width:60%; padding-bottom: 10px">
-                <div class="col">
-                  <a href "Humidity.html">
-                    <img class="img-responsive" src="HumidityvLatitude.png" style="width: 100%" ; alt="Humidity vs Latitude">
-                  </a>
-                </div>
-              </div>
-              <div class="row" style="width:60%; padding-bottom: 10px">
-                <div class="col">
-                  <a href "Temperature.html">
-                    <img class="img-responsive" src="TemperaturevLatitude.png" style="width: 100%" ; alt="Temperature vs Latitude">
-                  </a>
-                </div>
-              </div>
-              <div class="row" style="width:60%; padding-bottom: 10px">
-                <div class="col">
-                  <a href "Wind_Speed.html">
-                    <img class="img-responsive" src="Wind SpeedvLatitude.png" style="width: 100%" ; alt="Wind Speed vs Latitude">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </article>
-  </section>
-  </main>
-  </div>
-  </div>
 </body>
 
 </html>
